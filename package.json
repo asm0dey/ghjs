@@ -1,0 +1,24 @@
+{
+  "name": "youtracl-cli",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "asm0dey",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^16.9.6",
+    "@types/request": "^2.48.7",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "commander": "^8.2.0",
+    "configstore": "^6.0.0",
+    "request": "^2.88.2"
+  },
+  "scripts": {
+    "cli": "node ./build/cli.js",
+    "build": "tsc",
+    "clean": "rm -rf build"
+  },
+  "type": "module"
+}
